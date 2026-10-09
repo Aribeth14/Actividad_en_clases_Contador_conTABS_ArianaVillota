@@ -14,11 +14,12 @@
       </ion-card-header>
 
       <ion-card-content>
+        <p>Tu dirección es: {{ datos.direccion() }}</p>
         <p>El valor que me enviaste es:</p>
         <h1>{{ datos.contador() }}</h1>
       </ion-card-content>
     </ion-card>
   } @else {
-    <p>Primero ingresa tus datos y pulsa “Enviar al resumen”.</p>
+    <p>Primero ingresa tus datos y pulsa "Enviar".</p>
   }
 </ion-content>
